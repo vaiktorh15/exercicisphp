@@ -1,0 +1,16 @@
+body{
+    font-family: 'Trade Winds', ;
+    
+}
+
+h1{
+
+text-align:center;
+text-transform: uppercase;
+}
+
+
+.cascos{
+    width: 500px;
+    background-image:url(imatges/shopping.png);
+}

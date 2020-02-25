@@ -1,0 +1,103 @@
+*{
+
+    font-family: 'Russo One',sans-serif;
+    font-size: 20px;
+    
+}
+
+
+h1{
+font-size: 35px;
+text-align:center;
+text-transform: uppercase;
+}
+
+.cascos{
+    width: 200px;
+    height: 200px;
+    background-image:url(imatges/shopping.png);
+    background-size: cover;
+}
+
+.monitor{
+
+    width:200px;
+    height:200px;
+    background-image: url(imatges/1.jpg);
+    background-size: cover;
+}
+
+.tablet{
+
+    width:200px;
+    height:200px;
+    background-image: url(imatges/wacom.jpg);
+    background-size: cover;
+}
+
+.pendrive{
+
+    width: 200px;
+    height:200px;
+    background-image: url(imatges/pen.jpg);
+    background-size: cover;
+}
+
+.impresora{
+
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/impresora.jpg);
+    background-size: cover;
+}
+
+.raton{
+
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/raton.jpg);
+    background-size: cover;
+}
+
+.teclado{
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/teclado.jpg);
+    background-size: cover;
+}
+
+
+.portatil{
+
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/portatil.jpg);
+    background-size: cover;
+}
+
+
+.grafica{
+
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/grafica.jpg);
+    background-size: cover;
+}
+
+
+.procesador{
+
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/procesador.jpg);
+    background-size: cover;
+}
+
+
+.fuente{
+    width: 200px;
+    height: 200px;
+    background-image: url(imatges/fuente.jpg);
+    background-size: cover;
+}
+

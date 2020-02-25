@@ -1,0 +1,8 @@
+.caixa{
+    position: fixed;
+    width:100px;
+    height:100px;
+    background-image:url(imatges/200.gif);
+    background-size: cover;
+}
+
