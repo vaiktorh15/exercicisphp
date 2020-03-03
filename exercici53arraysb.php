@@ -11,15 +11,19 @@
 <?php
 
 
+$total=0;
+
+$temperatura=$_GET["temperatura"];
 
 
 
+for($i=0;$i<=12;$i++){
+    if (isset($temperatura[$i])){
+    $total=$total+$temperatura[$i];
+    }
+}
 
-
-
-
-
-
+echo "total de temperatura del año $total"
 
 
 

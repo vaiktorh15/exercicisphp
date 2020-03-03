@@ -30,7 +30,7 @@
 
 
     if ($total<=100){
-        echo "ComprI més dels nostres productes per rebre un descompte!<br>
+        echo "Compri més dels nostres productes per rebre un descompte!<br>
         El preu queda igual, serán $total euros";
     }else if ($total>100 and $total<=500){
         echo "Li faré un descompte del 10% por la seva compra de fins $total euros!<br>
