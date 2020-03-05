@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tiendas2.css">
     <title>Exercici arrays 2</title>
 </head>
+
 <body>
     <?php
     function discount1($a,$b=0.10){

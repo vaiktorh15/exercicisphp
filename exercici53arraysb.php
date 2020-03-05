@@ -10,20 +10,23 @@
 
 <?php
 
-
 $total=0;
+$temp=$_GET["temperatura"];
+$mes=$_GET["mes"];
 
-$temperatura=$_GET["temperatura"];
-
+$mes = array(
+    "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+    "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
 
 
 for($i=0;$i<=12;$i++){
-    if (isset($temperatura[$i])){
-    $total=$total+$temperatura[$i];
+    if (isset($temp[$i])){
+        echo '<br>';
+        for($x=0;$x<=$temp[$i];$x++){
+           echo "<img src='imatges/cuadrat.jpg' width='28px'>";
+        }
     }
 }
-
-echo "total de temperatura del año $total"
 
 
 
