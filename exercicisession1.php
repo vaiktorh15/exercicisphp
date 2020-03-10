@@ -21,7 +21,7 @@ session_start();
             
         }else{  
             echo "<p> Contraseña Incorrecta</p>";
-            echo "<a href='exercicisession1.php'>volver</a>"; 
+            echo "<a href='exercicisession1.php'>Volver</a>"; 
         }
 
     }
