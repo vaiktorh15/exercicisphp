@@ -17,11 +17,11 @@ session_start();
     if (isset($_POST["usuario"]) and isset($_POST["contraseña"])){
         if(($_POST["usuario"]=="Victor") and ($_POST["contraseña"]=="vaiktor")) {
             $_SESSION["user"]=$_POST["usuario"];
-            echo "Bienvenido" .$_SESSION["user"]; 
+            echo "Bienvenido " .$_SESSION["user"]; 
             
         }else{  
             echo "<p> Contraseña Incorrecta</p>";
-            echo "<a href='exercicisession1.php'>Volver</a>"; 
+            header("Location:sesionfail1.php");
         }
 
     }
