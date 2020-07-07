@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tiendas2.css">
-    <title>Exercici arrays 2</title>
+    <title>Tienda Online Víctor</title>
 </head>
 
 <body>
@@ -43,6 +43,13 @@
         El preu queda en: ";
         echo discount2($total); 
     }
+
+
 ?>
+
+<br>
+<a href="Exercici52c.php">Volver</a>
+
+
 </body>
 </html>
