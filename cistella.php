@@ -68,7 +68,7 @@
     <?php  
         $total = 0;  
         $producte = $_GET["item"];
-        $preus = $_GET["precio"]; 
+        $preus = $_GET["preu"]; 
 
         foreach($producte as $nom=>$quantitat){
             if($quantitat!=0){
@@ -98,44 +98,6 @@
       </div>
     </div>
   </div>
-
-
-<!--Descomptes-->
-<div class="alert alert-success">
-  <?php
-    function discount1($a,$b=0.10){
-        return $a-($a*$b);
-    }
-    function discount2($a,$b=0.15){
-        return $a-($a*$b);
-    }
-    
-
-    $total=0;
-    $producte=$_GET["precio"];
-
-    for($i=0;$i<=12;$i++){
-        if (isset($producte[$i])){
-        $total=$total+$producte[$i];
-        }
-        
-    }if($total_producte<=0){
-        echo "<p>El carrito esta vacío";
-    }else if ($total_producte<=100){
-        echo "<p>Compri més dels nostres productes per rebre un descompte!<br>
-        El preu queda igual, serán $total_producte euros</p>";
-    }else if ($total_producte>100 and $total_producte<=500){
-        echo "<p>Li faré un descompte del 10% por la seva compra de fins $total_producte euros!<br>
-        El preu queda en: "; 
-        echo discount1($total_producte); 
-    }else{
-        echo "<p>Grácies por la teva compra! Li aplicaré un 15% de descompte per gastar fins a $total_producte euros!<br>
-        El preu queda en: ";
-        echo discount2($total_producte); 
-    }
-
-
-?>
 </div>
 
 <!--footer-->

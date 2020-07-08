@@ -29,16 +29,9 @@ if (isset($_SESSION["username"])){
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-            <a class="nav-link" href="#">Inici <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/dist/tienda.php">Inici <span class="sr-only">(current)</span></a>
         </li>
         </ul>
-    <!-- formulario login -->
-    <form class="form-inline" action="validarLogin.php">
-       <h2>usuari</h2> <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
-       <h2>contrasenya</h2>:<input type="password" class="form-control" name="password" id="password">  
-        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Inicia sessió</button>
-    </form>
-    <!-- /formulario login -->
     </nav>
         </div>
     </div>
@@ -67,17 +60,25 @@ if (isset($_SESSION["username"])){
         }
     }?>
     <!--/alertas -->
-    <!-- jumbotron -->
+    
     <header>
-        <div class="jumbotron jumbotron-fluid">
         <h1>Inicia sessió V-E-S</h1>
     </header>
     
+
+    <!-- formulario login -->
+    <form class="form-inline" action="validarLogin.php">
+       <h3>usuari:</h3> <input type="user" class="form-control" name="username" id="username">
+       <h3>contrasenya:</h3><input type="password" class="form-control" name="password" id="password">  
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Inicia sessió</button>
+    </form>
+    <!-- /formulario login -->
         </div>
     </div>
-    <!-- /jumbotron --> 
-
+    
     </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -87,7 +87,7 @@
                 <div class="col-4 cascos"><img src="imatges/cascos.jpg" alt="cascos">
                   <p>Cascos Gaming-70 euros 
                   <input type="number" name="item[1]" min="0" max="5" value="0" >
-                  <input type="hidden" name="preu[item1]" value=<?=$cascos?>
+                  <input type="hidden" name="preu[1]" value=<?=$cascos?>
                   >
               </div>
 
@@ -96,7 +96,7 @@
               <img src="imatges/1.jpg" alt="monitor">
               <p>Monitor de 24 pulgadas 144hz-135 euros 
               <input type="number" name="item[2]" min="0" max="5" value="0">
-              <input type="hidden" name="preu[item2]" value=<?=$monitor?> >
+              <input type="hidden" name="preu[2]" value=<?=$monitor?> >
             </div>
             
 <!--wacom-->
@@ -104,7 +104,7 @@
               <img src="imatges/wacom.jpg" alt="wacom tablet">
               <p>Wacom Tablet-90 euros 
               <input type="number" name="item[3]" min="0" max="5" value="0">
-              <input type="hidden" name="preu[item3]" value=<?=$wacom?>>
+              <input type="hidden" name="preu[3]" value=<?=$wacom?>>
             </div>
 
 <!--pendrive-->
@@ -112,7 +112,7 @@
               <img src="imatges/pen.jpg" alt="pendrive">
             <p>Pendrive 128 GB-16 euros 
               <input type="number" name="item[4]" min="0" max="5" value="0">
-              <input type="hidden" name="preu[item4]" value=<?=$pendrive?>>
+              <input type="hidden" name="preu[4]" value=<?=$pendrive?>>
           </div>
 
 <!--impressora-->
@@ -120,7 +120,7 @@
               <img src="imatges/impresora.jpg" alt="impresora">
             <p>Impressora-48 euros 
               <input type="number" name="item[5]"min="0" max="5" value="0">
-              <input type="hidden" name="preu[item5]" value=<?=$impressora?>>
+              <input type="hidden" name="preu[5]" value=<?=$impressora?>>
           </div>
 
 <!--Ratolí-->
@@ -128,7 +128,7 @@
               <img src="imatges/raton.jpg" alt="ratón">
               <p><span class="preu"><?=$ratoli?>Ratolí USB-7 euros
                 <input type="number" name="item[6]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item6]" value=<?=$ratoli?>>
+                <input type="hidden" name="preu[6]" value=<?=$ratoli?>>
             </div>
             
             
@@ -137,14 +137,14 @@
                 <img src="imatges/teclado.jpg" alt="teclado">
                 <p>Teclat Logitech-10 euros 
               <input type="number" name="item[7]" min="0" max="5" value="0">
-              <input type="hidden" name="preu[item7]" value=<?=$teclat?>>
+              <input type="hidden" name="preu[7]" value=<?=$teclat?>>
             </div>
 <!--portatil-->
             <div class="col-4 portatil">
               <img src="imatges/portatil.jpg" alt="portatil"> 
               <p>Portàtil Lenovo-580 euros 
                 <input type="number" name="item[8]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item8]" value=<?=$portatil?>>
+                <input type="hidden" name="preu[8]" value=<?=$portatil?>>
             </div>
            
             
@@ -154,7 +154,7 @@
               
               <p>Tarjeta grafica Nvidia 1050 Ti-197 euros 
                 <input type="number" name="item[9]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item9]" value=<?=$grafica?>>
+                <input type="hidden" name="preu[9]" value=<?=$grafica?>>
             </div>
            
             
@@ -163,7 +163,7 @@
               <img src="imatges/procesador.jpg" alt="Intel core">
               <p>Procesador Intel core i5-8400-210 euros 
                 <input type="number" name="item[10]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item10]" value=<?=$processador?>>
+                <input type="hidden" name="preu[10]" value=<?=$processador?>>
               </div>
             
             
@@ -172,7 +172,7 @@
               <img src="imatges/fuente.jpg" alt="fuente de alimentación">
               <p>Font d'alimentació 650W-35 euros 
                 <input type="number" name="item[11]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item11]" value=<?=$font?>>
+                <input type="hidden" name="preu[11]" value=<?=$font?>>
               </div>
             
             
