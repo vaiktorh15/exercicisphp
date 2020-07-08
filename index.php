@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Tienda Online Víctor</title>
+    <title>Botiga Online Víctor</title>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="tiendas2.css">
-    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
-<!--bootstrap-->
+  <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+      <link rel="stylesheet" href="tiendas2.css">
+      <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+  <!--scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -22,16 +24,36 @@
 
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<form action="sesiontienda.php" method="post">
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+            <a class="nav-link" href="../dist/tienda.php">Inici <span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+            <ul>
+            <li class="navbar-text">
+            <a href="http://localhost/exercicisphp-1/cistella.php">Comanda</a>
+            </li>
+            </ul>
+                <ul>
+                <li class="navbar-text">
+                <a href="http://localhost/exercicisphp-1/sesiontienda.php.">Iniciar sessió</a>
+                </li>
+                </ul>
 
+                    <ul>
+                    <li class="navbar-text">
+                    <a href="logouttienda.php">Tancar sessió</a>
+                    </li>
+                    </ul>
+    </nav>
 
-    <input type="submit" value="Iniciar sesión">
-
-    </form>
-
-
-<form action="http://localhost/exercicisphp-1/carrito.php" method="get">
+<form action="http://localhost/exercicisphp-1/cistella.php" method="get">
 
            <header>
             <h1>Víctor's electronic shop</h1>
@@ -48,12 +70,15 @@
 
         $cascos = 70;
         $monitor = 135;
-        $wacom = 1.75;
-        $Mandarina = 1.80;
-        $Taronja = 2.5;
-        $Préssec = 2.75;
-        $Albercoc = 2.25;
-        $Iogurt = 2;
+        $wacom = 90;
+        $pendrive = 16;
+        $impressora = 48;
+        $ratoli = 7;
+        $teclat = 10;
+        $portatil = 580;
+        $grafica = 197;
+        $processador = 210;
+        $font = 35;
 
 ?>
 
@@ -87,7 +112,7 @@
               <img src="imatges/pen.jpg" alt="pendrive">
             <p>Pendrive 128 GB-16 euros 
               <input type="number" name="item[4]" min="0" max="5" value="0">
-              <input type="hidden" name="preu[item4]" value=<?=$penrive?>>
+              <input type="hidden" name="preu[item4]" value=<?=$pendrive?>>
           </div>
 
 <!--impressora-->
@@ -114,7 +139,7 @@
               <input type="number" name="item[7]" min="0" max="5" value="0">
               <input type="hidden" name="preu[item7]" value=<?=$teclat?>>
             </div>
-<!--teclat-->
+<!--portatil-->
             <div class="col-4 portatil">
               <img src="imatges/portatil.jpg" alt="portatil"> 
               <p>Portàtil Lenovo-580 euros 
@@ -133,12 +158,12 @@
             </div>
            
             
-<!--procesador-->
-            <div class="col-4 procesador">
+<!--processador-->
+            <div class="col-4 processador">
               <img src="imatges/procesador.jpg" alt="Intel core">
               <p>Procesador Intel core i5-8400-210 euros 
                 <input type="number" name="item[10]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item10]" value=<?=$procesador?>>
+                <input type="hidden" name="preu[item10]" value=<?=$processador?>>
               </div>
             
             

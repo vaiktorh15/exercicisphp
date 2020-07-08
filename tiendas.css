@@ -1,17 +1,13 @@
 *{
-
     font-family: 'Russo One',sans-serif;
-    font-size: 20px;
     
 }
-
-
 
 body{
     font-size: 18px;
    background-color: black;
    color: white;
-  background-image: url(imatges/placa.jpg);
+  background-image: url(imatges/electronic.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size:100% 100%;
@@ -20,105 +16,137 @@ body{
  
 }
 
+header{
 
+    background: radial-gradient(rgb(255, 255, 255),rgb(2, 238, 255),rgb(0, 98, 255));
+    border: 4px solid black;
+ 
+    
+}
 h1{
 font-size: 35px;
 text-align:center;
 text-transform: uppercase;
-color: white;
+color: black;
+text-decoration-line: underline;
+
+}
+
+h2{
+
+    text-align: center;
+    text-decoration-line: underline;
+    color: lightgreen;
+    text-transform: uppercase;
+    background-color: black;
+    border: 2px solid lightgreen;
+    margin-bottom: 20px;
+}
+
+section{
+
+    width: 1000px;
+    height: 1000px;
+    margin-left: 10.5%;
+}
+section img{
+
+    width:150px;
+    border: 2px solid black;
+    margin-left: 30%;
+}
+
+section p{
+
+    text-decoration-line: underline;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    margin: 5%;
+    
+}
+
+footer{
+    
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+   font-size: 16px; 
+    margin-top: 30px;
 }
 
 .cascos{
-    width: 200px;
-    height: 200px;
-    background-image:url(imatges/shopping.png);
-    background-size: cover;
+
+    border: 2px solid lightgreen;
 }
 
 .monitor{
 
-    width:200px;
-    height:200px;
-    background-image: url(imatges/1.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
 
 .tablet{
+    border: 2px solid lightgreen;
 
-    width:200px;
-    height:200px;
-    background-image: url(imatges/wacom.jpg);
-    background-size: cover;
 }
 
 .pendrive{
 
-    width: 200px;
-    height:200px;
-    background-image: url(imatges/pen.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
 
 .impresora{
 
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/impresora.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
 
 .raton{
 
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/raton.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
 
 .teclado{
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/teclado.jpg);
-    background-size: cover;
-}
 
+    border: 2px solid lightgreen;
+}
 
 .portatil{
 
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/portatil.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
-
 
 .grafica{
 
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/grafica.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
-
 
 .procesador{
 
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/procesador.jpg);
-    background-size: cover;
+    border: 2px solid lightgreen;
 }
-
 
 .fuente{
-    width: 200px;
-    height: 200px;
-    background-image: url(imatges/fuente.jpg);
-    background-size: cover;
+
+    border: 2px solid lightgreen;
 }
 
-a{
 
-    color: white;
+.botons{
+
+    text-align: center;
     font-size: 30px;
+    
+}
+
+.right{
+
+    float: right;
+    margin-bottom: 20px;
+}
+
+.formright{
+
+    margin-left:1000px;
+    
+    
 }
