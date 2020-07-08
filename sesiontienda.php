@@ -14,11 +14,17 @@ session_start();
     <title>Iniciar sesion</title>
 </head>
 <body>
+
+<header>
+<h1>Iniciar sesion tienda online Victor</h1>
+</header>
+
 <?php
     if (isset($_POST["usuario"]) and isset($_POST["contraseña"])){
         if(($_POST["usuario"]=="Victor") and ($_POST["contraseña"]=="vaiktor")) {
             $_SESSION["user"]=$_POST["usuario"];
             echo "Bienvenido " .$_SESSION["user"]; 
+            header("Location:sesiontienda.php");
             
         }else{  
             echo "<p> Contraseña Incorrecta</p>";
@@ -29,10 +35,6 @@ session_start();
     
 else{
 ?>
-
-<header>
-<h1>Iniciar sesion tienda online Victor</h1>
-</header>
 <form action="index.php" method="post">
 
 Usuario:

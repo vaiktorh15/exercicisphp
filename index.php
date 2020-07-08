@@ -43,6 +43,20 @@
 <h2>Benvingut! Aquí podràs comprar els següents productes:</h2>
 <section>
 
+
+<?php
+
+        $cascos = 70;
+        $monitor = 135;
+        $wacom = 1.75;
+        $Mandarina = 1.80;
+        $Taronja = 2.5;
+        $Préssec = 2.75;
+        $Albercoc = 2.25;
+        $Iogurt = 2;
+
+?>
+
 <!-- cascos -->
               <div class="row">
                 <div class="col-4 cascos"><img src="imatges/cascos.jpg" alt="cascos">
@@ -100,12 +114,12 @@
               <input type="number" name="item[7]" min="0" max="5" value="0">
               <input type="hidden" name="preu[item7]" value=<?=$teclat?>>
             </div>
-
+<!--teclat-->
             <div class="col-4 portatil">
               <img src="imatges/portatil.jpg" alt="portatil"> 
               <p>Portàtil Lenovo-580 euros 
                 <input type="number" name="item[8]" min="0" max="5" value="0">
-                <input type="hidden" name="preu[item8]" value=<?=$teclat?>>
+                <input type="hidden" name="preu[item8]" value=<?=$portatil?>>
             </div>
            
             
