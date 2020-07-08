@@ -100,16 +100,6 @@
   </div>
 </div>
 
-<!--footer-->
-
-<footer>
-
-    <div class="copyright">
-        <p>Pàgina creada per &copy;Victor Felices <br> amb Visual Studio Code</p>
-  
-    </div>
-
-</footer>
 
 
 </body>
